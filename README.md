@@ -23,6 +23,18 @@
      2.If a match is not found then add the error message “invalid username“
      3.else validate the password, show the error message “invalid password” if validation fails.
      4.setIsSubmitted(true) if all validations pass.
+     
+     // User Login info
+        const database = [
+      {
+        username: "user1",
+        password: "pass1"
+      },
+      {
+        username: "user2",
+        password: "pass2"
+       }
+     ];
     
 ## 6. Show success message after submit
    We will add condition rending in React JS based on the isSubmitted state value.
